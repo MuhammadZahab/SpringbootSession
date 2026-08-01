@@ -1,6 +1,6 @@
 package com.zahab.spring.rest;
 
-import com.zahab.spring.Coach;
+import com.zahab.util.Coach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

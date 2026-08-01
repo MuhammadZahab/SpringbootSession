@@ -1,4 +1,4 @@
-package com.zahab.spring;
+package com.zahab.util;
 
 public interface Coach {
     public String getWorkout();
