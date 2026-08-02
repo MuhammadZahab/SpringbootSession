@@ -10,10 +10,16 @@ public class CoachController {
 
     private Coach myCoach;
 
+//    @Autowired
+//    public CoachController(Coach coach) {
+//        this.myCoach = coach;
+//    }
+
     @Autowired
-    public CoachController(Coach coach) {
+    public void setMyCoach(Coach coach) {
         this.myCoach = coach;
     }
+
 
     @GetMapping("/getWorkout")
     public String getWorkout() {
