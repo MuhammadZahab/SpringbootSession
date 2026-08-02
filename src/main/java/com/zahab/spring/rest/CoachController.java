@@ -13,7 +13,7 @@ public class CoachController {
 
     //  Constructor Injection
     @Autowired
-    public CoachController(@Qualifier("footballCoach") Coach coach) {
+    public CoachController(Coach coach) {
         this.myCoach = coach;
     }
 
